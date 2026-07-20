@@ -1,6 +1,8 @@
 export default interface Category {
-  id: number;
+  id: string;
   name: string;
   image: string;
   description: string;
+  slug: string;
+  color: string;
 }

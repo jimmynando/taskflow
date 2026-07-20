@@ -9,7 +9,7 @@ function CategoryList() {
   const [categories, setCategories] = useState<Category[]>(categoriesList);
 
   return (
-    <div className="grid grid-cols-2 gap-6 p-3">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 p-3">
       {categories.map((category) => (
         <CategoryCard key={category.id} category={category} />
       ))}
