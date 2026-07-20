@@ -1,7 +1,12 @@
 import "./App.css";
+import CategoryList from "./components/CategoryList";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <CategoryList />
+    </>
+  );
 }
 
 export default App;
